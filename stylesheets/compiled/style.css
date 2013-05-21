@@ -1,0 +1,63 @@
+/* style.scss */
+#container {
+  width: 100%;
+  margin: 40px;
+  height: 50%; }
+
+#logo {
+  color: #fff;
+  background-color: #000;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  font-size: 4.5em;
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif; }
+  #logo p {
+    padding-left: 20px;
+    line-height: 60px;
+    margin-top: 0; }
+
+#phrase {
+  float: left;
+  clear: both;
+  width: 100%;
+  line-height: 120px;
+  font-size: 8em;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+#first-word {
+  font-weight: bold;
+  margin-right: 20px;
+  float: left; }
+
+#second-word {
+  font-weight: bold;
+  margin-right: 40px;
+  float: left; }
+
+#generate {
+  float: left;
+  width: 130px;
+  height: 50px;
+  border-radius: 8%;
+  background-color: #000;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  #generate p {
+    padding-left: 16px; }
+  #generate:hover {
+    cursor: pointer; }
+
+#amp {
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  font-size: 110%;
+  font-style: italic;
+  float: left;
+  width: 150px;
+  display: none; }
