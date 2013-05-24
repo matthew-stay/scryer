@@ -4,6 +4,7 @@
 	width:100%;
 	margin:40px;
 	height:50%;
+	float:left;
 }
 #logo {
 	color:#000;
@@ -28,11 +29,16 @@
     margin-top:60px;
     margin-bottom:60px;
 }
+.inner-title {
+	color:#000;
+}
 .grey {
-	opacity:0.25;
-	font-size:60%;
-	line-height:110%;
-	width:75%;
+	color:#B3B3B3;
+	font-size:70%;
+	line-height:100%;
+	width:77%;
+    font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+	font-weight:normal !important;
 }
 #first-word {
 	font-weight:bold;

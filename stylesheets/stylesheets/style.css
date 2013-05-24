@@ -4,9 +4,10 @@
   width: 100%;
   margin: 40px;
   height: 50%;
+  float: left;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 #logo {
   color: #000;
   font-size: 3.5em;
@@ -15,7 +16,7 @@
   background-repeat: no-repeat;
   height: 68px;
 }
-/* line 15, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 #logo p {
   margin-left: 75px;
   padding-top: 1px;
@@ -23,7 +24,7 @@
   margin-top: 0;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 #phrase {
   float: left;
   clear: both;
@@ -34,29 +35,36 @@
   margin-bottom: 60px;
 }
 
-/* line 31, ../sass/style.scss */
-.grey {
-  opacity: 0.25;
-  font-size: 60%;
-  line-height: 110%;
-  width: 75%;
+/* line 32, ../sass/style.scss */
+.inner-title {
+  color: #000;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
+.grey {
+  color: #B3B3B3;
+  font-size: 70%;
+  line-height: 100%;
+  width: 77%;
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  font-weight: normal !important;
+}
+
+/* line 43, ../sass/style.scss */
 #first-word {
   font-weight: bold;
   margin-right: 20px;
   float: left;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 #second-word {
   font-weight: bold;
   margin-right: 40px;
   float: left;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 #generate {
   float: left;
   width: 130px;
@@ -71,16 +79,16 @@
   font-weight: bold;
   letter-spacing: 2px;
 }
-/* line 60, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 #generate p {
   padding-left: 16px;
 }
-/* line 63, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 #generate:hover {
   cursor: pointer;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .amp {
   font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
   font-size: 110%;
