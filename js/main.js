@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$("#phrase").fitText(0.8, { minFontSize: '40px', maxFontSize: '1200px' });
+
 	// Array
 	var words = [];
 

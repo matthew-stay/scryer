@@ -19,7 +19,7 @@
 #logo {
   color: #000;
   font-size: 3.5em;
-  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  font-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",serif;
   background-image: url(../../img/scryer_logo.png);
   background-repeat: no-repeat;
   height: 68px;
@@ -37,8 +37,9 @@
 #phrase {
   float: left;
   clear: both;
-  width: 100%;
-  line-height: 120px;
+  width: 90%;
+  margin-right:10%;
+  line-height: 50px;
   font-size: 8em;
   margin-bottom: 20px;
 }
@@ -73,7 +74,6 @@
   color: #B3B3B3;
   font-size: 44%;
   line-height: 100%;
-  width: 600px;
   font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
   font-weight: normal !important;
 }
@@ -81,7 +81,6 @@
 /* line 61, ../sass/style.scss */
 #first-word {
   font-weight: bold;
-  margin-right: 20px;
   float: left;
 }
 
@@ -124,8 +123,9 @@
   font-size: 110%;
   font-style: italic;
   float: left;
-  width: 150px;
+  width: 15%;
   display: none;
+  padding-left:2%;
 }
 
 @keyframes fadein {
