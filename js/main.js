@@ -56,5 +56,11 @@ $(document).ready(function() {
 			$(".amp").delay(200).fadeIn('fast')		
 		}
 	});
+
+	   	window.addEventListener("load",function() {
+    setTimeout(function() {
+        document.body.scrollTop || window.scrollTo(0, 1);
+    }, 0);
+});
 	
 });
