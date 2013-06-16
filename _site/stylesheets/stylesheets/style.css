@@ -1,7 +1,7 @@
 /* style.scss */
 /* line 3, ../sass/style.scss */
 #container {
-  width: 100%;
+  width: 90%;
   margin: 40px;
   height: 50%;
   float: left;
@@ -37,9 +37,8 @@
 #phrase {
   float: left;
   clear: both;
-  width: 90%;
-  margin-right:10%;
-  line-height: 50px;
+  width: 100%;
+  line-height: 100px;
   font-size: 8em;
   margin-bottom: 20px;
 }
@@ -47,11 +46,16 @@
 /* line 32, ../sass/style.scss */
 .intro-first {
   margin: 0px;
+  width: 90%;
+  line-height:100%;
 }
 
 /* line 35, ../sass/style.scss */
 .intro-second {
   margin: 30px 0 0 0;
+  width: 90%;
+  line-height:100%;
+  
 }
 
 /* line 38, ../sass/style.scss */
@@ -127,6 +131,12 @@
   display: none;
   padding-left:2%;
 }
+
+
+@media screen and (min-width: 40.5em) {
+
+}
+
 
 @keyframes fadein {
   /* line 105, ../sass/style.scss */
