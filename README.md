@@ -1,6 +1,5 @@
 
 # scryer
-======
 A random generator for interpretive word combinations.
 
 ## Getting Started 
@@ -15,7 +14,7 @@ Scryer utilizes a library of common terms which are split into an <code>array()<
 
 Scryer is built to invite opportunities for inspiration by introducing an element of chance. Reacting to chance operations can lead to new avenues of thinking. 
 
-### When performing chance operations, consider:
+Considerations:
 
 * Are the terms related or different? Is the pair better or worse because of it?
 * What narrative is occurring between the word pairs? 
@@ -25,10 +24,14 @@ Scryer is built to invite opportunities for inspiration by introducing an elemen
 
 ### The I Ching
 
+![screenshot](http://imgur.com/FiJSKKF)
+
 John Cage was known to utilize the [I Ching]() when developing his compositions. Commonly used as an ancient form of Chinese divination, Cage saw the I Ching as a tool for composing using chance. He could remove intention from the work and rely on methods of divination to guide his sound. 
 
 
 ### Geomantic Devices
+
+![screenshot](http://i.imgur.com/DGlQLFK.jpg)
 
 The I Ching isn't the only tool of this sort. Ancient Islamic inventors developed advanced instruments which were used to attain divine knowledge. Various dials could be turned which would result in a series of random patterns that could be interpreted.
 
