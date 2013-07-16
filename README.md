@@ -1,6 +1,6 @@
 
 # scryer
-A random generator for interpretive word combinations.
+> A random generator for interpretive word combinations.
 
 ## Getting Started 
 
@@ -34,6 +34,7 @@ John Cage was known to utilize the [I Ching]() when developing his compositions.
 ![screenshot](http://i.imgur.com/DGlQLFK.jpg)
 
 The I Ching isn't the only tool of this sort. Ancient Islamic inventors developed advanced instruments which were used to attain divine knowledge. Various dials could be turned which would result in a series of random patterns that could be interpreted.
+
 
 ### Digital Geomancy
  
