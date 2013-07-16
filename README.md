@@ -24,14 +24,14 @@ When generating new terms, consider:
 
 ### The I Ching
 
-![screenshot](http://imgur.com/IqsCpus)
+![screenshot](http://i.imgur.com/IqsCpus)
 
 John Cage was known to utilize the [I Ching]() when developing his compositions. Commonly used as an ancient form of Chinese divination, Cage saw the I Ching as a tool for composing using chance. He could remove intention from the work and rely on methods of divination to guide his sound. 
 
 
 ### Geomantic Devices
 
-![screenshot](http://imgur.com/aAQnwep)
+![screenshot](http://i.imgur.com/aAQnwep)
 
 The I Ching isn't the only tool of this sort. Ancient Islamic inventors developed advanced instruments which were used to attain divine knowledge. Various dials could be turned which would result in a series of random patterns that could be interpreted.
 
