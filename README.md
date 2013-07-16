@@ -1,5 +1,5 @@
 =======
-scryer
+# scryer
 ======
 
-A random generator for interpretive word combinations.
+> A random generator for interpretive word combinations.
