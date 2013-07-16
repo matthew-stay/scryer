@@ -14,7 +14,7 @@ Scryer utilizes a library of common terms which are split into an <code>array()<
 
 Scryer is built to invite opportunities for inspiration by introducing an element of chance. Reacting to chance operations can lead to new avenues of thinking. 
 
-Considerations:
+When generating new terms, consider:
 
 * Are the terms related or different? Is the pair better or worse because of it?
 * What narrative is occurring between the word pairs? 
@@ -35,6 +35,7 @@ John Cage was known to utilize the [I Ching]() when developing his compositions.
 
 The I Ching isn't the only tool of this sort. Ancient Islamic inventors developed advanced instruments which were used to attain divine knowledge. Various dials could be turned which would result in a series of random patterns that could be interpreted.
 
+=======
 
 ### Digital Geomancy
  
