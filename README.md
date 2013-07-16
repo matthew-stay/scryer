@@ -1,6 +1,5 @@
 
-# scryer
-> A random generator for interpretive word combinations.
+# scryer - A generator for interpretive word combinations.
 
 ## Getting Started 
 
