@@ -12,6 +12,7 @@
   /* Safari and Chrome */
   -o-animation: fadein 2s;
   /* Opera */
+
 }
 
 /* line 9, ../sass/style.scss */
@@ -126,7 +127,7 @@
   font-size: 110%;
   font-style: italic;
   float: left;
-  width: 12%;
+  width: 15%;
   display: none;
   padding-left:2%;
 }
