@@ -28,7 +28,6 @@ When generating new terms, consider:
 
 John Cage was known to utilize the [I Ching]() when developing his compositions. Commonly used as an ancient form of Chinese divination, Cage saw the I Ching as a tool for composing using chance. He could remove intention from the work and rely on methods of divination to guide his sound. 
 
-http://imgur.com/
 ### Geomantic Devices
 
 ![screenshot](http://imgur.com/aAQnwep.jpg)
