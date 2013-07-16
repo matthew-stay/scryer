@@ -1,0 +1,190 @@
+/* style.scss */
+/* line 3, ../sass/style.scss */
+#container {
+  width: 90%;
+  margin: 40px;
+  height: 50%;
+  float: left;
+     animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */
+
+}
+
+/* line 9, ../sass/style.scss */
+#logo {
+  color: #000;
+  font-size: 3.5em;
+  font-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",serif;
+  background-image: url(../../img/scryer_logo.png);
+  background-repeat: no-repeat;
+  height: 68px;
+  margin: 40px 40px 0 40px;  
+}
+/* line 16, ../sass/style.scss */
+#logo p {
+  margin-left: 75px;
+  padding-top: 1px;
+  line-height: 60px;
+  margin-top: 0;
+}
+
+/* line 23, ../sass/style.scss */
+#phrase {
+  float: left;
+  clear: both;
+  width: 100%;
+  line-height: 100px;
+  font-size: 8em;
+  margin-bottom: 20px;
+}
+
+/* line 32, ../sass/style.scss */
+.intro-first {
+  margin: 0px;
+  width: 90%;
+  line-height:100%;
+}
+
+/* line 35, ../sass/style.scss */
+.intro-second {
+  margin: 30px 0 0 0;
+  width: 90%;
+  line-height:100%;
+  
+}
+
+/* line 38, ../sass/style.scss */
+.vision {
+  float: left;
+  margin-bottom: 20px;
+  font-size: 8em;
+  font-weight: bold;
+  border: none;
+  opacity: 0.25;
+}
+
+/* line 46, ../sass/style.scss */
+.inner-title {
+  color: #000;
+}
+
+/* line 49, ../sass/style.scss */
+.grey {
+  color: #B3B3B3;
+  font-size: 44%;
+  line-height: 100%;
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  font-weight: normal !important;
+}
+
+/* line 61, ../sass/style.scss */
+#first-word {
+  font-weight: bold;
+  float: left;
+}
+
+/* line 66, ../sass/style.scss */
+#second-word {
+  font-weight: bold;
+  margin-right: 40px;
+  float: left;
+}
+
+/* line 71, ../sass/style.scss */
+#generate {
+  float: left;
+  width: 130px;
+  height: 50px;
+  border-radius: 8%;
+  background-color: #000;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  clear: both;
+  margin-top: 20px;
+}
+/* line 86, ../sass/style.scss */
+#generate p {
+  padding-left: 16px;
+}
+/* line 89, ../sass/style.scss */
+#generate:hover {
+  cursor: pointer;
+}
+
+/* line 94, ../sass/style.scss */
+.amp {
+  font-family: Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+  font-size: 110%;
+  font-style: italic;
+  float: left;
+  width: 15%;
+  display: none;
+  padding-left:2%;
+}
+
+
+@media screen and (min-width: 40.5em) {
+
+}
+
+
+@keyframes fadein {
+  /* line 105, ../sass/style.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 108, ../sass/style.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  /* line 113, ../sass/style.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 116, ../sass/style.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  /* line 121, ../sass/style.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 124, ../sass/style.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  /* Opera */
+  /* line 129, ../sass/style.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 132, ../sass/style.scss */
+  to {
+    opacity: 1;
+  }
+}
