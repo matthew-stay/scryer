@@ -31,7 +31,7 @@ Example usage:
   animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
 }
-@media (min-width: 64.375em) {
+@media (min-width: 1600px) {
   /* line 73, ../sass/style.scss */
   #container {
     width: 96%;
@@ -79,7 +79,7 @@ Example usage:
   text-align: center;
   line-height: 1.75em;
 }
-@media (min-width: 64.375em) {
+@media (min-width: 1600px) {
   /* line 98, ../sass/style.scss */
   #phrase {
     font-size: 8em;
@@ -100,7 +100,7 @@ Example usage:
   line-height: 30px;
   padding: 0;
 }
-@media (min-width: 64.375em) {
+@media (min-width: 1600px) {
   /* line 109, ../sass/style.scss */
   .intro-first {
     line-height: 2.1em;
@@ -119,7 +119,7 @@ Example usage:
   line-height: 30px;
   padding: 0;
 }
-@media (min-width: 64.375em) {
+@media (min-width: 1600px) {
   /* line 116, ../sass/style.scss */
   .intro-second {
     line-height: 2.1em;
@@ -196,7 +196,7 @@ Example usage:
   letter-spacing: 2px;
   clear: both;
 }
-@media (min-width: 64.375em) {
+@media (min-width: 1600px) {
   /* line 158, ../sass/style.scss */
   #generate {
     width: 96%;
