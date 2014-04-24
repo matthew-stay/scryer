@@ -70,6 +70,26 @@ Example usage:
 }
 
 /* line 98, ../sass/style.scss */
+.github {
+  position: absolute;
+  right: 60px;
+  top: 40px;
+  color: #B3B3B3;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+/* line 106, ../sass/style.scss */
+.contact {
+  position: absolute;
+  left: 60px;
+  top: 40px;
+  color: #B3B3B3;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+/* line 116, ../sass/style.scss */
 #phrase {
   float: left;
   clear: both;
@@ -80,59 +100,60 @@ Example usage:
   line-height: 1.75em;
 }
 @media (min-width: 64.375em) {
-  /* line 98, ../sass/style.scss */
+  /* line 116, ../sass/style.scss */
   #phrase {
-    font-size: 8em !important;
+    font-size: 6em !important;
     padding-top: 60px !important;
+    line-height: 2em !important;
   }
 }
 @media (min-width: 50em) {
-  /* line 98, ../sass/style.scss */
+  /* line 116, ../sass/style.scss */
   #phrase {
-    font-size: 6em;
+    font-size: 5em;
     padding-top: 20px;
   }
 }
 
-/* line 109, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .intro-first {
   margin: 0px 20px;
   line-height: 30px;
   padding: 0;
 }
 @media (min-width: 64.375em) {
-  /* line 109, ../sass/style.scss */
+  /* line 127, ../sass/style.scss */
   .intro-first {
     line-height: 2.1em;
   }
 }
 @media (min-width: 50em) {
-  /* line 109, ../sass/style.scss */
+  /* line 127, ../sass/style.scss */
   .intro-first {
     line-height: 1.25em;
   }
 }
 
-/* line 116, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .intro-second {
   margin: 30px 20px 20px 20px;
   line-height: 30px;
   padding: 0;
 }
 @media (min-width: 64.375em) {
-  /* line 116, ../sass/style.scss */
+  /* line 134, ../sass/style.scss */
   .intro-second {
     line-height: 2.1em;
   }
 }
 @media (min-width: 50em) {
-  /* line 116, ../sass/style.scss */
+  /* line 134, ../sass/style.scss */
   .intro-second {
     line-height: 1.25em;
   }
 }
 
-/* line 123, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .vision {
   float: left;
   margin-bottom: 20px;
@@ -142,12 +163,12 @@ Example usage:
   opacity: 0.25;
 }
 
-/* line 131, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .inner-title {
   color: black;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .grey {
   color: #B3B3B3;
   font-size: 44%;
@@ -157,7 +178,7 @@ Example usage:
   margin-top: -25px !important;
 }
 
-/* line 142, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 #first-word {
   font-weight: bold;
   float: left;
@@ -168,7 +189,7 @@ Example usage:
   line-height: 30px;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 #second-word {
   font-weight: bold;
   float: left;
@@ -177,7 +198,7 @@ Example usage:
   line-height: 10px;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 #generate {
   position: absolute;
   bottom: 20px;
@@ -197,34 +218,34 @@ Example usage:
   clear: both;
 }
 @media (min-width: 64.375em) {
-  /* line 158, ../sass/style.scss */
+  /* line 176, ../sass/style.scss */
   #generate {
     width: 96%;
   }
 }
 @media (min-width: 50em) {
-  /* line 158, ../sass/style.scss */
+  /* line 176, ../sass/style.scss */
   #generate {
     width: 80%;
   }
 }
 @media (min-width: 37.5em) {
-  /* line 158, ../sass/style.scss */
+  /* line 176, ../sass/style.scss */
   #generate {
     width: 60%;
   }
 }
-/* line 178, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 #generate p {
   text-align: center;
   line-height: 30px;
 }
-/* line 182, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 #generate:hover {
   cursor: pointer;
 }
 
-/* line 187, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .amp {
   float: left;
   clear: both;
@@ -237,12 +258,12 @@ Example usage:
 }
 
 @keyframes fadein {
-  /* line 201, ../sass/style.scss */
+  /* line 219, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 204, ../sass/style.scss */
+  /* line 222, ../sass/style.scss */
   to {
     opacity: 1;
   }
@@ -250,12 +271,12 @@ Example usage:
 
 @-moz-keyframes fadein {
   /* Firefox */
-  /* line 209, ../sass/style.scss */
+  /* line 227, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 212, ../sass/style.scss */
+  /* line 230, ../sass/style.scss */
   to {
     opacity: 1;
   }
@@ -263,12 +284,12 @@ Example usage:
 
 @-webkit-keyframes fadein {
   /* Safari and Chrome */
-  /* line 217, ../sass/style.scss */
+  /* line 235, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 220, ../sass/style.scss */
+  /* line 238, ../sass/style.scss */
   to {
     opacity: 1;
   }
@@ -276,12 +297,12 @@ Example usage:
 
 @-o-keyframes fadein {
   /* Opera */
-  /* line 225, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 228, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   to {
     opacity: 1;
   }

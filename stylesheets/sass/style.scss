@@ -95,6 +95,24 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
     text-align:center;
   }
 }
+.github {
+  position:absolute;
+  right:60px;
+  top:40px;
+  color:#B3B3B3;
+  text-decoration:none;
+  font-size:0.85em;
+}
+.contact {
+  position:absolute;
+  left:60px;
+  top:40px;
+  color:#B3B3B3;
+  text-decoration:none;
+  font-size:0.85em;
+}
+
+
 #phrase {
   float: left;
   clear: both;
@@ -103,8 +121,8 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
   margin: 0px;
   text-align:center;
   line-height:1.75em;
-  @include breakpoint(large) { font-size: 8em !important; padding-top:60px !important; };
-  @include breakpoint(medium) { font-size: 6em; padding-top:20px; };
+  @include breakpoint(large) { font-size: 6em !important; padding-top:60px !important; line-height:2em !important; };
+  @include breakpoint(medium) { font-size: 5em; padding-top:20px; };
 }
 .intro-first {
   margin: 0px 20px;
