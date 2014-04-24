@@ -103,7 +103,7 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
   margin: 0px;
   text-align:center;
   line-height:1.75em;
-  @include breakpoint(large) { font-size: 8em; padding-top:60px };
+  @include breakpoint(large) { font-size: 8em !important; padding-top:60px !important; };
   @include breakpoint(medium) { font-size: 6em; padding-top:20px; };
 }
 .intro-first {

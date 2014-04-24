@@ -82,8 +82,8 @@ Example usage:
 @media (min-width: 64.375em) {
   /* line 98, ../sass/style.scss */
   #phrase {
-    font-size: 8em;
-    padding-top: 60px;
+    font-size: 8em !important;
+    padding-top: 60px !important;
   }
 }
 @media (min-width: 50em) {
