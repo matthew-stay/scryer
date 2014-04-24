@@ -137,11 +137,10 @@ Example usage:
   margin: 0px;
   text-align: center;
   width: 100%;
-  padding-top: 25px;
   line-height: 30px;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 #second-word {
   font-weight: bold;
   float: left;
@@ -150,7 +149,7 @@ Example usage:
   line-height: 10px;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 #generate {
   position: absolute;
   bottom: 20px;
@@ -170,34 +169,34 @@ Example usage:
   clear: both;
 }
 @media (min-width: 64.375em) {
-  /* line 151, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   #generate {
     width: 96%;
   }
 }
 @media (min-width: 50em) {
-  /* line 151, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   #generate {
     width: 80%;
   }
 }
 @media (min-width: 37.5em) {
-  /* line 151, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   #generate {
     width: 60%;
   }
 }
-/* line 171, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 #generate p {
   text-align: center;
   line-height: 30px;
 }
-/* line 175, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 #generate:hover {
   cursor: pointer;
 }
 
-/* line 180, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .amp {
   float: left;
   clear: both;
@@ -210,12 +209,12 @@ Example usage:
 }
 
 @keyframes fadein {
-  /* line 194, ../sass/style.scss */
+  /* line 193, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 197, ../sass/style.scss */
+  /* line 196, ../sass/style.scss */
   to {
     opacity: 1;
   }
@@ -223,12 +222,12 @@ Example usage:
 
 @-moz-keyframes fadein {
   /* Firefox */
-  /* line 202, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 205, ../sass/style.scss */
+  /* line 204, ../sass/style.scss */
   to {
     opacity: 1;
   }
@@ -236,12 +235,12 @@ Example usage:
 
 @-webkit-keyframes fadein {
   /* Safari and Chrome */
-  /* line 210, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 213, ../sass/style.scss */
+  /* line 212, ../sass/style.scss */
   to {
     opacity: 1;
   }
@@ -249,12 +248,12 @@ Example usage:
 
 @-o-keyframes fadein {
   /* Opera */
-  /* line 218, ../sass/style.scss */
+  /* line 217, ../sass/style.scss */
   from {
     opacity: 0;
   }
 
-  /* line 221, ../sass/style.scss */
+  /* line 220, ../sass/style.scss */
   to {
     opacity: 1;
   }
