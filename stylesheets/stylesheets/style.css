@@ -83,6 +83,7 @@ Example usage:
   /* line 98, ../sass/style.scss */
   #phrase {
     font-size: 8em;
+    padding-top: 60px;
   }
 }
 @media (min-width: 50em) {
