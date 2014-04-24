@@ -104,17 +104,21 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
   text-align:center;
   line-height:1.75em;
   @include breakpoint(large) { font-size: 8em; };
-  @include breakpoint(medium) { font-size: 6em; line-height:2em; padding-top:20px; };
+  @include breakpoint(medium) { font-size: 6em; padding-top:20px; };
 }
 .intro-first {
   margin: 0px 20px;
   line-height: 30px;
   padding:0;
+  @include breakpoint(large) { line-height:2.1em; };
+  @include breakpoint(medium) { line-height:1.25em; };
 }
 .intro-second {
   margin: 30px 20px 20px 20px;
   line-height: 30px;
   padding:0;
+  @include breakpoint(large) { line-height:2.1em; };
+  @include breakpoint(medium) { line-height:1.25em; };
 }
 .vision {
   float: left;
@@ -133,6 +137,7 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
   line-height:100%;
   font-family: $serif-family;
   font-weight:normal !important;
+  margin-top: -25px !important;
 }
 #first-word {
   font-weight:bold;
