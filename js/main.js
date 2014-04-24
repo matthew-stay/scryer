@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-	$("#phrase").fitText();
-	$(".intro-first, .intro-second").fitText(1.2, { minFontSize: '30px', maxFontSize: '1200px' });
+	// $("#phrase").fitText();
+	// $(".intro-first, .intro-second").fitText(1.2, { minFontSize: '30px', maxFontSize: '1200px' });
 
 	// Array
 	var words = [];

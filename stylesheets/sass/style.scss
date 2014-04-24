@@ -1,134 +1,223 @@
 /* style.scss */
 
+/* MIXINS */
+
+// $width-name: max-device-width;
+// $mobile-width: 400px;
+// 
+// 
+// @media screen and ($width-name : $mobile-width) {
+//   #container {
+//     width:100px;
+//   }
+// }
+//
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (min-width: 64.375em) { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 50em) { @content; }
+  }
+  @else if $point == small {
+    @media (min-width: 37.5em)  { @content; }
+  }
+}
+
+// #logo {
+//   color: $black;
+//   font-size: 2em;
+//   font-family: $serif-family;
+//   background-image: url(../../img/scryer_logo2.png);
+//   background-repeat: no-repeat;
+//   height: 40px;
+//   margin: 20px 0 40px;
+//      & p {
+//       line-height: 45px;
+//       margin-top: 0;
+//       margin-left:55px;
+//     }
+// }
+// 
+
+/*
+Example usage: 
+@include animation(10s, 5s, changecolour)
+ */
+@mixin animation ($delay, $duration, $animation) {
+  -webkit-animation-delay: $delay;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-name: $animation;
+  -webkit-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+
+  -moz-animation-delay: $delay;
+  -moz-animation-duration: $duration;
+  -moz-animation-name: $animation;
+  -moz-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+
+  -o-animation-delay: $delay;
+  -o-animation-duration: $duration;
+  -o-animation-name: $animation;
+  -o-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+
+  animation-delay: $delay;
+  animation-duration: $duration;
+  animation-name: $animation;
+  animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+}
+
+/* VARIABLES */
+$black: #000;
+$serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",serif;
+
 #container {
-	width:100%;
-	margin:40px;
-	height:50%;
-	float:left;
+  width: 96%;
+  margin: auto;
+  padding: 2%;
+  @include breakpoint(large) { width: 96%; };
+  @include breakpoint(medium) { width: 80%; };
+  @include breakpoint(small) { width: 60%; };
+  @include animation(0s, 2s, fadein);
 }
 #logo {
-	color:#000;
-    font-size:3.5em;
-    font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-	background-image: url(../../img/scryer_logo.png);
-	background-repeat:no-repeat;
-	height:68px;
-  	 & p {
-	    margin-left:75px;
-	    padding-top:1px;
-	    line-height:60px;
-	    margin-top:0;
-   	}
+  color: $black;
+  font-size: 2.5em;
+  font-family: $serif-family;
+  background-image: url(../../img/scryer_logo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  margin: 20px 0 40px 0;
+  & p {
+    margin: 0;
+    padding-top:55px;
+    line-height: 45px;
+    text-align:center;
+  }
 }
 #phrase {
-	float:left;
-	clear:both;
-	width:100%;
-	line-height:120px;
-    font-size:8em;
-    margin-top:60px;
-    margin-bottom:20px;
+  float: left;
+  clear: both;
+  width: 100%;
+  font-size: 3em;
+  margin: 0px;
+  text-align:center;
+  @include breakpoint(large) { font-size: 8em; };
+  @include breakpoint(medium) { font-size: 6em; line-height:2em; padding-top:20px; };
 }
 .intro-first {
-	margin:0px;
+  margin: 0px 20px;
+  line-height: 30px;
 }
 .intro-second {
-	margin:30px 0 0 0;
+  margin: 30px 20px 20px 20px;
+  line-height: 30px;
 }
 .vision {
-	float:left;
-	margin-bottom:20px;
-	font-size: 8em;
-	font-weight:bold;
-	border:none;
-	opacity:0.25;
+  float: left;
+  margin-bottom: 20px;
+  font-size: 8em;
+  font-weight: bold;
+  border: none;
+  opacity: 0.25;
 }
 .inner-title {
-	color:#000;
+  color: $black;
 }
 .grey {
-	color:#B3B3B3;
-	font-size:44%;
-	line-height:100%;
-    font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-	font-weight:normal !important;
-	animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+  color:#B3B3B3;
+  font-size:44%;
+  line-height:100%;
+  font-family: $serif-family;
+  font-weight:normal !important;
 }
 #first-word {
-	font-weight:bold;
-	margin-right:20px;
-	float:left;
+  font-weight:bold;
+  float:left;
+  margin:0px;
+  text-align:center;
+  width:100%;
+  padding-top:25px;
+  line-height:30px;
 }
 #second-word {
-	font-weight:bold;
-	margin-right:40px;
-	float:left;
+  font-weight:bold;
+  float:left;
+  text-align:center;
+  width:100%;
+  line-height:10px;
 }
 #generate {
-	float:left;
-	width:130px;
-	height:50px;
-	border-radius:8%;
-	background-color:#000;
-	color:white;
-	font-weight:400;
-	text-decoration:none;
-    font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-	text-transform:uppercase;
-	font-weight:bold;
-	letter-spacing:2px;
-	clear:both;
-	margin-top:20px;
-	& p {
-		padding-left:16px;
-	}
-	&:hover {
-		cursor:pointer;
-	}
+  position: absolute;
+  bottom:20px;
+  float:left;
+  width:90%;
+  margin-left:10px;
+  height:65px;
+  border-radius:8px;
+  background-color:#000;
+  color:white;
+  font-weight:400;
+  text-decoration:none;
+  font-family: $serif-family;
+  text-transform:uppercase;
+  font-weight:bold;
+  letter-spacing:2px;
+  clear:both;
+  @include breakpoint(large) { width: 96%; };
+  @include breakpoint(medium) { width: 80%; };
+  @include breakpoint(small) { width: 60%; };
+  & p {
+    text-align:center;
+    line-height:30px;
+  }
+  &:hover {
+    cursor:pointer;
+  }
 }
 
 .amp {
-   font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-   font-size:110%;
-   font-style:italic;
-   float:left;
-   width:150px;
-   display:none;
+  float:left;
+  clear:both;
+  font-family: $serif-family;
+  font-size: 80%;
+  font-style: italic;
+  float: left;
+  width: 100%;
+  display:none;
+
 }
 #footer {
 }
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }
 @-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }
 @-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }
 @-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
 }
