@@ -2,6 +2,18 @@
 
 /* MIXINS */
 
+@mixin image-2x($image, $width, $height) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    /* on retina, use image that's scaled by 2 */
+    background-image: url($image);
+    background-size: $width $height;
+  }
+}
+
 // $width-name: max-device-width;
 // $mobile-width: 400px;
 // 
@@ -84,6 +96,7 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
   font-size: 2.5em;
   font-family: $serif-family;
   background-image: url(../../img/scryer_logo2.png);
+  @include image-2x("../../img/scryer_logo2x.png", 40px, 40px);  
   background-repeat: no-repeat;
   background-position: center;
   height: 40px;
