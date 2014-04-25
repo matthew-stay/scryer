@@ -95,7 +95,7 @@ $serif-family: "Libre Baskerville","Goudy Old Style","Palatino","Book Antiqua",s
   color: $black;
   font-size: 2.5em;
   font-family: $serif-family;
-  background-image: url(../../img/scryer_logo2.png);
+  background-image: url(../../img/scryer_logo.png);
   @include image-2x("../../img/scryer_logo2x.png", 40px, 40px);  
   background-repeat: no-repeat;
   background-position: center;
